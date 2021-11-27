@@ -1,26 +1,39 @@
-* {
+body {
     background-color: black;
     text-align: center;
     color: white;
 }
 
-h1 {
+/* HEADINGS */
+
+.header--main {
     font-family: Verdana;
     font-weight: normal;
     font-size: 50px;
     color: white;
-
 }
+
+.header--secondary {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.header--sub-header {
+    font-size: 21px;
+    color:grey
+}
+
+/* links */
 
 a {
     color: aquamarine;
     font-size: 16px;
 }
 
-h2 {
+/* h2 {
     font-weight: 300;
     font: 42px;
-}
+} */
 
 footer {
     text-align: right;
